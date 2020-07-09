@@ -9,11 +9,11 @@ namespace Reboot
         //3 correct pattern to pass the level
         [SerializeField] private List<PasswordData> _patterns;
         
-        public GameObject continueButton;
-        public GameObject tryAgainButton;
+        public GameObject continueButton; //continue to next level
+        public GameObject tryAgainButton; //try again if fail 3 times
 
-        private int _lives = 3;
-        private int _currentPatternIndex = 0;
+        private int _lives = 3; //3 lives for user
+        private int _currentPatternIndex = 0; //correct password indexes 
     
         private void Start()
         {
@@ -21,6 +21,7 @@ namespace Reboot
             tryAgainButton.SetActive(false);
         }
 
+        //if user failes, call this function. it will decrease lives by one.
         public void Failed()
         {
             if (--_lives <= 0)
@@ -33,9 +34,12 @@ namespace Reboot
             }
         }
 
+        //this method is calling from InputHandler class and checks the user input and correct passwords are equal or not.
         public void CheckPassword(int[] enteredPassword)
         {
             var correctPattern = _patterns[_currentPatternIndex].data;
+            
+            //if lengths are not equal
             if (enteredPassword.Length != correctPattern.Length)
             {
                 Failed();
@@ -76,6 +80,7 @@ namespace Reboot
         }
     }
 
+    //correct passwords in an integer struct (initially 3 of them but we can expand from inspector)
     [System.Serializable]
     public struct PasswordData
     {
