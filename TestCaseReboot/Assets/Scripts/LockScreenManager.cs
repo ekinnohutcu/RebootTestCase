@@ -11,6 +11,8 @@ namespace Reboot
         
         public GameObject continueButton; //continue to next level
         public GameObject tryAgainButton; //try again if fail 3 times
+        public GameObject levelObjects;
+        
 
         private int _lives = 3; //3 lives for user
         private int _currentPatternIndex = 0; //correct password indexes 
@@ -26,7 +28,9 @@ namespace Reboot
         {
             if (--_lives <= 0)
             {
+                levelObjects.SetActive(false);
                 tryAgainButton.SetActive(true);
+                
             }
             else
             {
@@ -66,6 +70,7 @@ namespace Reboot
 
         private void LevelUnlocked()
         {
+            levelObjects.SetActive(false);
             continueButton.SetActive(true);
         }
 

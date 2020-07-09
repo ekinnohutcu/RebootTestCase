@@ -11,7 +11,7 @@ namespace Reboot
         [SerializeField] private LockScreenManager _lockScreenManager;
     
         public List<LockButton> selectedLockButtons = new List<LockButton>();
-    
+
         //bool for user touches screen or buttons.
         private bool buttonPressed = false;
 
