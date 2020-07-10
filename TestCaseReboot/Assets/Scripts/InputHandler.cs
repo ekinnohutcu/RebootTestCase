@@ -54,15 +54,15 @@ namespace Reboot
         {
             var results = LeanTouch.RaycastGui(finger.ScreenPosition);
 
-            if (selectedLockButtons.Count > 0)
+            if (selectedLockButtons.Count > 1)
             {
                 
-                foreach (var selectedLockButton in selectedLockButtons)
+                /*foreach (var selectedLockButton in selectedLockButtons)
                 {
                     lineRenderer.SetPosition(0, selectedLockButton.transform.position);
                     lineRenderer.SetPosition(1, finger.GetWorldPosition(0, Camera.main));
 
-                }
+                }*/
             }
 
 
@@ -77,6 +77,7 @@ namespace Reboot
                             selectedLockButtons.Add(lockButton);
                             lockButton.SelectButton(true);
                             lockButton.GetComponent<Image>().color = Color.green;
+                           
                         }
                     }
                 }

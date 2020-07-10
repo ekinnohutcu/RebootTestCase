@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154912482}
+      - m_Target: {fileID: 460092012}
         m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
@@ -1877,9 +1877,10 @@ LineRenderer:
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 10
+    widthMultiplier: 20
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2284,8 +2285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -8}
-  m_SizeDelta: {x: 262.7, y: 199.4}
+  m_AnchoredPosition: {x: 0.00001049, y: -0.000015259}
+  m_SizeDelta: {x: 587.4, y: 481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051597780
 MonoBehaviour:
@@ -2330,7 +2331,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154912482}
+      - m_Target: {fileID: 460092012}
         m_MethodName: TryAgain
         m_Mode: 1
         m_Arguments:

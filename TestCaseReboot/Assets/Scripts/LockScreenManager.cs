@@ -62,7 +62,7 @@ namespace Reboot
             }
 
             _currentPatternIndex++;
-            if (_currentPatternIndex >= 3)
+            if (_currentPatternIndex >= _patterns.Count)
             {
                 LevelUnlocked();
             }

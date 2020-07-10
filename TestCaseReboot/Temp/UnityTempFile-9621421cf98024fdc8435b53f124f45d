@@ -295,4 +295,5 @@
 "Assets/Scripts/InputHandler.cs"
 "Assets/Scripts/LockButton.cs"
 "Assets/Scripts/LockScreenManager.cs"
+"Assets/Scripts/PlugInputHandler.cs"
 "Assets/Scripts/PlugManager.cs"
