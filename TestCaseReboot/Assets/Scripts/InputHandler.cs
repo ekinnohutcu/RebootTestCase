@@ -11,6 +11,7 @@ namespace Reboot
         [SerializeField] private LockScreenManager _lockScreenManager;
     
         public List<LockButton> selectedLockButtons = new List<LockButton>();
+        public LineRenderer lineRenderer;
 
         //bool for user touches screen or buttons.
         private bool buttonPressed = false;
@@ -52,6 +53,19 @@ namespace Reboot
         private void OnFingerSet(LeanFinger finger)
         {
             var results = LeanTouch.RaycastGui(finger.ScreenPosition);
+
+            if (selectedLockButtons.Count > 0)
+            {
+                
+                foreach (var selectedLockButton in selectedLockButtons)
+                {
+                    lineRenderer.SetPosition(0, selectedLockButton.transform.position);
+                    lineRenderer.SetPosition(1, finger.GetWorldPosition(0, Camera.main));
+
+                }
+            }
+
+
             if (results.Count > 0)
             {
                 foreach (var result in results)
