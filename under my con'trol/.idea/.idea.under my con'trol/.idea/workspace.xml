@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c5b9a50-4de6-4cb1-9e19-f25b6fe6ec47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../TestCaseReboot/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TestCaseReboot/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/StateCache/Hierarchy/54c803-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestCaseReboot/Library/StateCache/Hierarchy/54c803-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../TestCaseReboot/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/ProcessJobs/675f7315a8e628c76bd5cd85d6e446de.bakert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-21bb5b9b19da943cfbce602863c18335" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-293368b244a4c4602a04cd6bddcf0d1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-2b78f4965f0b548e4a38679e374e41dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-4cae6e3ab315e4ce9ad05e943d5c21c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-4e519d1bf2655402ab5355ef0ccb6aee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-8010597b6af704bbcb0d71e7d1c1338a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-8df157f364a044be289f70f351c4572c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-9621421cf98024fdc8435b53f124f45d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-9a1dc8b4a7cec487e869770e616c914f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-9ccb2b0c8a7e94643aa54b602208a92a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-a1b0ad76c3beb453187c2f7fd1477936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-a40587e9f702344d99edb2728cb61393" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-a4dedb327fd404f0180275e1a0bec417" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-ae777587f4f4943048306df84abb308d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-b7bcfb8cb01ef4222ab1759e01565837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-da61aa989d64c4e0298b6e6a9044500c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-e4617f453e23945d28f41880692a5b97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/UnityTempFile-feb97df13cfa04ba6b2f2a5c4124424c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestCaseReboot/Temp/__Backupscenes/0.backup" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Deneme1/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/beginning/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Deneme1/Assets/Scripts/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Deneme1/Assets/Scripts/MouseLook.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eXDMjcm4PqkuYL1SF6XUssdNDg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c5b9a50-4de6-4cb1-9e19-f25b6fe6ec47" name="Default Changelist" comment="" />
+      <created>1594459000666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594459000666</updated>
+      <workItem from="1594459034009" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

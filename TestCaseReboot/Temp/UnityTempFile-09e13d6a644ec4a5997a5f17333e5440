@@ -6,6 +6,7 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"Library/ScriptAssemblies/LeanTouch.dll"
 /reference:"/Users/ekinnohutcu/Documents/2019.2.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Users/ekinnohutcu/Documents/2019.2.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Users/ekinnohutcu/Documents/2019.2.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -76,7 +77,6 @@
 /reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
 /reference:"Library/ScriptAssemblies/LeanCommon.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/LeanTouch.dll"
 /reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
 /reference:"/Users/ekinnohutcu/Documents/2019.2.13f1/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"/Users/ekinnohutcu/Documents/2019.2.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
@@ -295,4 +295,5 @@
 "Assets/Scripts/InputHandler.cs"
 "Assets/Scripts/LockButton.cs"
 "Assets/Scripts/LockScreenManager.cs"
+"Assets/Scripts/PlugInputHandler.cs"
 "Assets/Scripts/PlugManager.cs"
