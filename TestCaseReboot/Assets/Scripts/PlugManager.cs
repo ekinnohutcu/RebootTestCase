@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Lean.Touch;
 using UnityEngine;
 
@@ -15,6 +16,10 @@ public class PlugManager : MonoBehaviour
     public List<PuzzlePiece> piece;
 
     private bool isFingerUp;
+
+    private int count;
+
+    public List<PuzzlePiece> prizeList;
     
     
     
@@ -22,15 +27,17 @@ public class PlugManager : MonoBehaviour
     {
         LeanTouch.OnFingerSet += OnFingerSet;
         LeanTouch.OnFingerUp += OnFingerUp;
+        
         winText.SetActive(false);
     }
 
     private void OnFingerUp(LeanFinger finger)
     {
         isFingerUp = true;
+        
     }
     
-    private void OnFingerSet(LeanFinger finger)
+   private void OnFingerSet(LeanFinger finger)
     {
         isFingerUp = false;
     }
@@ -40,11 +47,15 @@ public class PlugManager : MonoBehaviour
     {
         foreach (var puzzlePiece in piece)
         {
-            if (puzzlePiece.isDone && isFingerUp)
+            if (puzzlePiece.isDone)
             {
-                Win();
+                prizeList.Add(puzzlePiece);
+                puzzlePiece.isDone = false;
             }
         }
+        
+        if(piece.All(prizeList.Contains))
+            Win();
     }
 
     public void Win()
@@ -52,6 +63,10 @@ public class PlugManager : MonoBehaviour
         levelObjects.SetActive(false);
         winText.SetActive(true);
     }
-    
-    
+
+    private void OnDisable()
+    {
+        LeanTouch.OnFingerSet -= OnFingerSet;
+        LeanTouch.OnFingerUp -= OnFingerUp;
+    }
 }
