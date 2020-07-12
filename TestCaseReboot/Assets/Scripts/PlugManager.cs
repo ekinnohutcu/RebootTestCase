@@ -34,7 +34,7 @@ public class PlugManager : MonoBehaviour
     private void OnFingerUp(LeanFinger finger)
     {
         isFingerUp = true;
-        
+
     }
     
    private void OnFingerSet(LeanFinger finger)
