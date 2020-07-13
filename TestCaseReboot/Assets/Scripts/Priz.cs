@@ -12,6 +12,7 @@ public class Priz: MonoBehaviour
         if (other.tag == "Plug")
         {
             other.gameObject.GetComponent<PuzzlePiece>().isDone = true;
+            other.gameObject.GetComponent<PuzzlePiece>().isTriggerEnter= true;
         }
     }
 
@@ -20,6 +21,7 @@ public class Priz: MonoBehaviour
         if (other.tag == "Plug")
         {
             other.gameObject.GetComponent<PuzzlePiece>().isDone = false;
+            other.gameObject.GetComponent<PuzzlePiece>().isTriggerEnter = false;
         }
     }
 }

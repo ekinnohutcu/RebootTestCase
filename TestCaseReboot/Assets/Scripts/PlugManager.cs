@@ -8,18 +8,24 @@ using UnityEngine;
 public class PlugManager : MonoBehaviour
 {
     
-    private int _plugCount = 0;
+   // private int _plugCount = 0;
 
 
+   //UI elements
     public GameObject winText;
     public GameObject levelObjects;
+    
+    //list that contains all pieces.
     public List<PuzzlePiece> piece;
 
+    //boolean to check user's finger is on screen or not.
     private bool isFingerUp;
 
-    private int count;
+    
+    //private int count;
 
-    public List<PuzzlePiece> prizeList;
+    //list that contains plugs on priz.
+    public List<PuzzlePiece> prizList;
     
     
     
@@ -42,28 +48,36 @@ public class PlugManager : MonoBehaviour
         isFingerUp = false;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         foreach (var puzzlePiece in piece)
         {
             if (puzzlePiece.isDone)
             {
-                prizeList.Add(puzzlePiece);
+                prizList.Add(puzzlePiece);
                 puzzlePiece.isDone = false;
+            }
+
+            if (!puzzlePiece.isTriggerEnter)
+            {
+                prizList.Remove(puzzlePiece);
             }
         }
         
-        if(piece.All(prizeList.Contains))
+        if(piece.All(prizList.Contains))
             Win();
     }
 
+    
+    //if user enters all prizes correctly.
     public void Win()
     {
         levelObjects.SetActive(false);
         winText.SetActive(true);
     }
 
+    //LeanTouch
     private void OnDisable()
     {
         LeanTouch.OnFingerSet -= OnFingerSet;

@@ -5,4 +5,5 @@ using UnityEngine;
 public class PuzzlePiece : MonoBehaviour
 {
    public bool isDone;
+   public bool isTriggerEnter;
 }
